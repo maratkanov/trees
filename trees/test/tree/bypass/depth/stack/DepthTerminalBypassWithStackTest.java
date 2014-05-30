@@ -44,7 +44,7 @@ public class DepthTerminalBypassWithStackTest {
     }
 
     @Test
-    public void widthBypassTest() throws Exception {
+    public void depthTerminalBypassTest() throws Exception {
         List<Object> sequence = Bypass.depthTerminalBypass(root);
         Assert.assertEquals("Обход в глубину не корректен", correctSequence, sequence);
     }

@@ -41,7 +41,7 @@ public class DepthReverseBypassWithStackTest {
     }
 
     @Test
-    public void widthBypassTest() throws Exception {
+    public void depthReverseBypassTest() throws Exception {
         List<Object> sequence = Bypass.depthReverseBypass(root);
         Assert.assertEquals("Обход в глубину не корректен", correctSequence, sequence);
     }

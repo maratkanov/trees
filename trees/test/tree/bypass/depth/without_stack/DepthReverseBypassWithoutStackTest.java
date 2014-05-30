@@ -1,4 +1,4 @@
-package tree.bypass.depth.stack;
+package tree.bypass.depth.without_stack;
 
 import bypass.Bypass;
 import org.junit.Assert;
@@ -9,7 +9,7 @@ import tree.Node;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DepthDirectBypassWithStackTest {
+public class DepthReverseBypassWithoutStackTest {
     private Node root;
     private List<Object> correctSequence;
 
@@ -29,20 +29,20 @@ public class DepthDirectBypassWithStackTest {
         root.right.right.left = new Node(root.right.right, 13);
 
         correctSequence = new ArrayList<>();
-        correctSequence.add(root.getValue());
-        correctSequence.add(root.left.getValue());
         correctSequence.add(root.left.left.getValue());
-        correctSequence.add(root.left.right.getValue());
+        correctSequence.add(root.left.getValue());
         correctSequence.add(root.left.right.left.getValue());
+        correctSequence.add(root.left.right.getValue());
         correctSequence.add(root.left.right.right.getValue());
+        correctSequence.add(root.getValue());
         correctSequence.add(root.right.getValue());
-        correctSequence.add(root.right.right.getValue());
         correctSequence.add(root.right.right.left.getValue());
+        correctSequence.add(root.right.right.getValue());
     }
 
     @Test
-    public void depthDirectBypassTest() throws Exception {
-        List<Object> sequence = Bypass.depthDirectBypass(root);
+    public void depthReverseBypassNoStackTest() throws Exception {
+        List<Object> sequence = Bypass.depthReverseBypassNoStack(root);
         Assert.assertEquals("Обход в глубину не корректен", correctSequence, sequence);
     }
 }
