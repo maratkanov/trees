@@ -55,4 +55,18 @@ public class Bypass {
 
         return sequence;
     }
+
+    public static List<Object> depthTerminalBypass(Node root) {
+        if (root == null)
+            return null;
+        List<Object> sequence = new ArrayList<>();
+        if (root.left != null)
+            sequence.addAll(depthTerminalBypass(root.left));
+        if (root.right != null) {
+            sequence.addAll(depthTerminalBypass(root.right));
+        }
+        sequence.add(root.getValue());
+
+        return sequence;
+    }
 }
