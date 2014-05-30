@@ -42,4 +42,17 @@ public class Bypass {
 
         return sequence;
     }
+
+    public static List<Object> depthReverseBypass(Node root) {
+        if (root == null)
+            return null;
+        List<Object> sequence = new ArrayList<>();
+        if (root.left != null)
+            sequence.addAll(depthReverseBypass(root.left));
+        sequence.add(root.getValue());
+        if (root.right != null)
+            sequence.addAll(depthReverseBypass(root.right));
+
+        return sequence;
+    }
 }

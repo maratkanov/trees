@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df2bf9ab-2879-40a8-940e-d76a4ade34d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trees/test/tree/bypass/depth/stack/DepthDirectBypassWithStackTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/trees/test/tree/bypass/some.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/trees/test/tree/bypass/depth/stack/DepthReverseBypassWithStackTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/trees/src/bypass/Bypass.java" afterPath="$PROJECT_DIR$/trees/src/bypass/Bypass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="trees.iws" />
@@ -54,11 +52,21 @@
       <file leaf-file-name="Bypass.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trees/src/bypass/Bypass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5645161" vertical-offset="298" max-vertical-offset="918">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.7096774" vertical-offset="514" max-vertical-offset="1152">
+              <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DepthReverseBypassWithStackTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trees/test/tree/bypass/depth/stack/DepthReverseBypassWithStackTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="846">
+              <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,6 +89,7 @@
         <option value="$PROJECT_DIR$/trees/test/tree/bypass/width/WidthBypassTest.java" />
         <option value="$PROJECT_DIR$/trees/test/tree/bypass/depth/stack/DepthBypassWithStackTest.java" />
         <option value="$PROJECT_DIR$/trees/test/tree/bypass/depth/stack/DepthDirectBypassWithStackTest.java" />
+        <option value="$PROJECT_DIR$/trees/test/tree/bypass/depth/stack/DepthReverseBypassWithStackTest.java" />
         <option value="$PROJECT_DIR$/trees/src/bypass/Bypass.java" />
       </list>
     </option>
@@ -274,7 +283,7 @@
       <recent name="tree.bypass.depth.stack" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DepthDirectBypassWithStackTest">
+  <component name="RunManager" selected="JUnit.DepthReverseBypassWithStackTest">
     <configuration default="false" name="WidthBypassTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -315,6 +324,34 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tree.bypass.depth.stack" />
       <option name="MAIN_CLASS_NAME" value="tree.bypass.depth.stack.DepthDirectBypassWithStackTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DepthReverseBypassWithStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tree.bypass.depth.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="trees" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tree.bypass.depth.stack" />
+      <option name="MAIN_CLASS_NAME" value="tree.bypass.depth.stack.DepthReverseBypassWithStackTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -544,14 +581,16 @@
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JUnit.WidthBypassTest" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.DepthDirectBypassWithStackTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.DepthReverseBypassWithStackTest" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DepthDirectBypassWithStackTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.WidthBypassTest" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DepthReverseBypassWithStackTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DepthDirectBypassWithStackTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.WidthBypassTest" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -570,16 +609,21 @@
       <updated>1401443652676</updated>
       <workItem from="1401443656345" duration="66000" />
       <workItem from="1401443947157" duration="184000" />
-      <workItem from="1401444132257" duration="5421000" />
+      <workItem from="1401444132257" duration="5877000" />
     </task>
+    <task id="LOCAL-00001" summary="depth direct bypass with stack">
+      <created>1401449607560</created>
+      <updated>1401449607560</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5671000" />
+    <option name="totallyTimeSpent" value="6127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -624,6 +668,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="depth direct bypass with stack" />
+    <option name="LAST_COMMIT_MESSAGE" value="depth direct bypass with stack" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -670,10 +716,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/trees/test/tree/bypass/depth/stack/DepthReverseBypassWithStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="226" max-vertical-offset="846">
+          <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trees/src/bypass/Bypass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5645161" vertical-offset="298" max-vertical-offset="918">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.7096774" vertical-offset="514" max-vertical-offset="1152">
+          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
