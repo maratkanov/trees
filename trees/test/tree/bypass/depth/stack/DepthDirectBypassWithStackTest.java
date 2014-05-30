@@ -43,6 +43,6 @@ public class DepthDirectBypassWithStackTest {
     @Test
     public void widthBypassTest() throws Exception {
         List<Object> sequence = Bypass.depthDirectBypass(root);
-        Assert.assertEquals("Обход в ширину не корректен", correctSequence, sequence);
+        Assert.assertEquals("Обход в глубину не корректен", correctSequence, sequence);
     }
 }
