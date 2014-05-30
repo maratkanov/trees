@@ -29,4 +29,17 @@ public class Bypass {
         }
         return sequence;
     }
+
+    public static List<Object> depthDirectBypass(Node root) {
+        if (root == null)
+            return null;
+        List<Object> sequence = new ArrayList<>();
+        sequence.add(root.getValue());
+        if (root.left != null)
+            sequence.addAll(depthDirectBypass(root.left));
+        if (root.right != null)
+            sequence.addAll(depthDirectBypass(root.right));
+
+        return sequence;
+    }
 }
