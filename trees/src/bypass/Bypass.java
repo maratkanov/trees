@@ -116,7 +116,26 @@ public class Bypass {
             return null;
         List<Object> sequence = new ArrayList<>();
         Stack<Node> storage = new Stack<>();
-        // TODO: resume from here
+        Node currentNode = root;
+        while (currentNode != null || !storage.empty()) {
+            if (!storage.empty()) {
+                currentNode = storage.pop();
+                if (!storage.empty() && currentNode.right == storage.lastElement()) {
+                    currentNode = storage.pop();
+                } else {
+                    sequence.add(currentNode.getValue());
+                    currentNode = null;
+                }
+            }
+            while (currentNode != null) {
+                storage.push(currentNode);
+                if (currentNode.right != null) {
+                    storage.push(currentNode.right);
+                    storage.push(currentNode);
+                }
+                currentNode = currentNode.left;
+            }
+        }
         return sequence;
     }
 }
